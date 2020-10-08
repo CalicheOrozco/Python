@@ -11,6 +11,7 @@ def NombreRandom(i):
 	    #Recorre cada columna y la agrega a la lista
 	    for row in reader:
 	        nombre.append(row)
+
 	    #retorna el nombre del numero porporcionado
 	    return nombre[i]['name']
 
@@ -39,7 +40,7 @@ def ApellidoRandom(i):
 # print(NombreRandom(randrange(0, 884)))
 # print(ApellidoRandom(randrange(0, 884)))
 #     
-nombre = NombreRandom(randrange(0, 49339))
-apellido = ApellidoRandom(randrange(0, 25398))
+nombre = NombreRandom(randrange(0, 17324))
+apellido = ApellidoRandom(randrange(0, 23683))
 
 print(nombre, apellido)
