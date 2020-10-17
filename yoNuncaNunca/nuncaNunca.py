@@ -17,5 +17,5 @@ def NuncaNuncaRandom(i):
 	    #retorna la frase del numero porporcionado
 	    return frase[i]['Frases']
 
-nuncanunca = NuncaNuncaRandom(randrange(0, 200))
+nuncanunca = NuncaNuncaRandom(randrange(0, 345))
 print(nuncanunca)
